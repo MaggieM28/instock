@@ -1,6 +1,13 @@
 /**
-  Theme Name: Basic Theme
-  Version: 1
-  Author: Trevor
+  Theme Name: InStock Theme
+  Version: 3
+  Author: Maggie Martinez
 */
+/*-------------------- Home Page Styling --------------------*/
+#rotator {
+  background: url("images/rotator.php") no-repeat center top;
+  background-position: static;
+  height: 700px;
+  background-size: cover;
+}
 
