@@ -3,5 +3,6 @@
 	</div>
       
 </div><!-- x content -->
+</div><!-- x rotator -->
 </body>
 </html>

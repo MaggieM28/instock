@@ -10,4 +10,5 @@
 	<?php wp_head();?>
 </head>
 <body>
+<div id="rotator">
   <div class="container">
