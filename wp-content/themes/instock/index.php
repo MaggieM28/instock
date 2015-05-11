@@ -5,9 +5,6 @@ Template Name: Home Page
 ?>
 
 
-<div class="row logo">
-	<h1>InStock</h1>
-</div>
 
 <div class="row tagline">
 	<h3>Stock photos for everyone.</h3>

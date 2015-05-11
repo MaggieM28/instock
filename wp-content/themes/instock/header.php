@@ -27,6 +27,10 @@
 	<button class="menu-button" id="open-button"></button>
 <div class="content-wrap">
 	<div class="content">
+	
 
+	<div class="row logo">
+	<h1>InStock</h1>
+</div>
 
 

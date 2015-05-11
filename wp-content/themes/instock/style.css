@@ -16,6 +16,12 @@ h1 {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
+	font-size: 58px;
+}
+
+h1.pg-title {
+	margin-bottom: 0px;
+	border-bottom: 1px solid #fff;
 }
 
 .logo h1 {
@@ -258,5 +264,60 @@ ul.nav.nav-pills.pull-right li a:active {
 #footer p {
 	color: #ccc;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
+}
+
+/*-------------------- Contact Form Styling --------------------*/
+.form {
+	background: none;
+	padding: 10px;
+	border-radius: 0px;
+	margin-bottom: 40px;
+
+}
+
+.well.form {
+	border: none;
+	box-shadow: none;
+}
+
+.form h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #7c815c;
+}
+
+.form-group label {
+	color: #fff;
+}
+
+input.form-control {
+	background-color: rgba(0,0,0,0.3);
+	border: 2px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+}
+
+textarea#message.form-control {
+	background-color: rgba(0,0,0,0.4);
+	border: 2px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.btn-primary {
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 560px;
+	width: 120px;
+	height: 40px;
+	border-radius: 0px;
+}
+
+button.btn.btn-primary {
+	background-color: none;
+	border: 2px solid #fff;
+}
+
+button.btn.btn-primary:hover {
+	background-color:#7a7e5a;
 }
