@@ -11,7 +11,7 @@
       <p>
       	Category: 
 
-      <?php the_category(', ') . " " . the_tags(__('Tags: '), ', ', ' | ') . edit_post_link(__('Edit'), ''); ?>
+      <?php the_category(', '); ?>
 
       </p>
 

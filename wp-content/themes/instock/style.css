@@ -41,6 +41,7 @@ h3 {
 	font-size: 36px;
 	margin: 0;
 	margin-top: 8px;
+	border-bottom: none;
 }
 
 .thumb-container {
@@ -57,8 +58,10 @@ h3 {
 	height: 100%;
 }
 
+h2 {
+	background-color: rgba(124,129,92,0.6); 
 
-
+}
 
 
 

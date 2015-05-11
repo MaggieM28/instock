@@ -17,10 +17,10 @@
   	<div class="menu-wrap">
   		<nav class="menu">
   			<ul class="nav nav-pills pull-right">
-				<li><a href="">Home</a></li>
-				<li><a href="">Categories</a></li>
-				<li ><a href="">Pricing</a></li>
-				<li ><a href="">Contact</a></li>
+				<li><a href="<?php bloginfo('url'); ?>">Home</a></li>
+				<li><a href="<?php bloginfo('url'); ?>/categories">Categories</a></li>
+				<li ><a href="<?php bloginfo('url'); ?>/pricing">Pricing</a></li>
+				<li ><a href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
 			</ul>	
   		</nav>
   	</div>
