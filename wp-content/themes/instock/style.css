@@ -60,10 +60,13 @@ h3 {
 
 h2 {
 	background-color: rgba(124,129,92,0.6); 
-
 }
 
-
+h4,p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
 
 
 
@@ -517,3 +520,25 @@ figure.effect-ming:hover img {
 	opacity: 0.4;
 }
 
+
+
+
+
+
+
+
+
+
+/*-------------------- Pricing Page Styling --------------------*/
+.usage,.size {
+	border: 2px solid #fff;
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 30px;
+	padding:10px;
+	height: 150px;
+}
+
+.usage-icons {
+	height: 80px;
+	width: 80px;
+}
