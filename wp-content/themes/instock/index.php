@@ -20,7 +20,7 @@ Template Name: Home Page
 
 	<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-.7 thumb-container">
 		<div class="well photo-thumbs">
-			<img class="img-responsive" src="https://placeimg.com/200/200/nature" alt="">
+			<a href="<?php the_permalink();?>"><img class="img-responsive" src="https://placeimg.com/200/200/nature" alt=""></a>
 		</div>
 	</div>
 
