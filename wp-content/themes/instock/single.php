@@ -5,7 +5,9 @@
       <h1><?php the_title(); ?></h1>
       <?php echo get_the_date(); ?> by <?php the_author(); ?>
 
+	<div class="col-sm-8 col-sm-offset-2">
      <?php the_content(); ?>
+    </div>
       <p>
       	Category: 
 

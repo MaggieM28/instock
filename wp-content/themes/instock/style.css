@@ -363,12 +363,17 @@ button.btn.btn-primary:hover {
 
 /*-------------------- Modal Styling --------------------*/
 button.close {
-	color: #fff;
+	color: #448088;
 }
 
 img#myModalLabel.col-xs-12 {
 	border: 5px solid #fff;
 	padding: 0;
+}
+
+.btn-primary.view-it{
+	margin-left: 380px;
+	width: 200px;
 }
 
 /*-------------------- General Page Hover Styles --------------------*/
