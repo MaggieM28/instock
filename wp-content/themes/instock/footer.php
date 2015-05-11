@@ -1,5 +1,7 @@
+
 	<div id="footer">
 		<?php wp_footer(); ?>
+		<p>© 2015 InStock.com. All rights reserved.</p>
 	</div>
 
 

@@ -1,21 +1,33 @@
-<?php get_header(); ?>
+<?php get_header(); 
+/*
+Template Name: Home Page
+*/
+?>
 
 
-<div class="row">
+<div class="row logo">
 	<h1>InStock</h1>
 </div>
 
-<div class="row">
+<div class="row tagline">
 	<h3>Stock photos for everyone.</h3>
 </div>
 
-<?php if(have_posts()): while (have_posts()) : the_post(); ?>
+<?php $blog_posts = new WP_Query(['post_type' => 'post',
+							 'posts_per_page' => '4',
+									'orderby' => 'rand'
+								]); ?>
 
-      <h2>
-      	<a href="<?php the_permalink() ?>">
-      		<?php the_title(); ?>
-      	</a>
-      </h2>
+<?php if($blog_posts->have_posts()): while ($blog_posts->have_posts()) : $blog_posts->the_post(); ?>
+
+
+	<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-.7 thumb-container">
+		<div class="well photo-thumbs">
+			<img class="img-responsive" src="https://placeimg.com/200/200/nature" alt="">
+		</div>
+	</div>
+
+     
 
 <?php endwhile; endif; ?>
 

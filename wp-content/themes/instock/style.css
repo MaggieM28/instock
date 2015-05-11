@@ -14,14 +14,42 @@
 h1 {
 	color: #fff;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+.logo h1 {
+	font-size: 68px;
+	margin: 0;
+	margin-top: 70px;
 }
 
 h3 {
 	color: #fff;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
+.tagline h3 {
+	font-size: 36px;
+	margin: 0;
+	margin-top: 8px;
+}
 
+.thumb-container {
+	margin-top: 40px;
+}
+
+.photo-thumbs {
+ 	margin-top: 100px;
+ 	z-index: 999;
+}
+
+.photo-thumbs img {
+	width: 100%;
+	height: 100%;
+}
 
 
 
@@ -60,7 +88,7 @@ body,
 
 .content {
 	position: relative;
-	padding-bottom: 12em;
+	/*padding-bottom: 12em;*/
 }
 
 /* Common styles for menu button and menu-wrap */
@@ -211,4 +239,24 @@ ul.nav.nav-pills.pull-right li a:active {
 .show-menu ul.nav li a:nth-child(6) {
 	-webkit-transition-delay: 0.5s;
 	transition-delay: 0.5s;
+}
+
+
+
+
+
+/*-------------------- Footer Styling --------------------*/
+#footer {
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#footer p {
+	color: #ccc;
+	text-align: center;
+	margin-top: 20px;
 }
