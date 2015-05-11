@@ -8,10 +8,10 @@ Template Name: Contact Page
 	<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  	<h1 class="pg-title"><?php the_title(); ?></h1>
+  	<h3><?php the_title(); ?></h3>
   	
   	<div class="well form">
-		<h2>Message me</h2>
+		<h2>Message Us!</h2>
 		<form role="form" action="" method="POST">
 		  
 		  <div class="form-group">

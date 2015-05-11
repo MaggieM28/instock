@@ -1,6 +1,8 @@
-<?php get_header(); ?>
-
-
+<?php get_header();
+/*
+Template Name: Categories Page
+*/
+?>
 
 <div class="row">
  	<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
@@ -26,32 +28,14 @@
 			<img class="img-responsive" src="https://placeimg.com/200/200/nature">
 			<figcaption>
 					<h2><?php the_title(); ?></h2>
-					<a href="#" data-toggle="modal" data-target="#myModal">View more</a>
+					<p>She's into crochet. Like really into it.</p>
+					<a href="#">View more</a>
 			</figcaption>
 			<figure class="effect-ming">
 		</div>
 	</div>
 
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-        <img class="col-xs-12" id="myModalLabel" src="https://placeimg.com/800/600/nature">
-   
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-<?php endwhile; else: ?>
+  <?php endwhile; else: ?>
     <p>Sorry, no pages matched your criteria.</p>
 <?php endif; ?>
 
